@@ -1,0 +1,241 @@
+body{
+    background-color: black;
+    color:white;
+    white-space :normal;
+}
+
+.page-container > div > div:nth-child(1) > input{
+  width: 85%;
+}
+
+.user-search-bar {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 200px;
+    height: 30px;
+
+    text-align: center;
+ 
+    > div{
+      width:50%;
+      display: inline-block;
+      white-space: nowrap;
+    } 
+  }
+
+  .user-search-result{
+    .users-list{
+      border-color: red;
+      border-width: thin;
+    }
+
+
+    width:100% !important;
+  }
+
+  .page-container {
+    input:focus-visible, textarea:focus-visible, select:focus-visible{
+      outline: none !important;
+  }
+
+  input{
+    border-color: #e71e5c;
+  }
+    height: 100vh;
+    background-color: black !important;
+    margin: 0px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 30px;
+    white-space: normal;
+  }
+
+#SelectedUserContainer{
+  div{
+ width:50%;
+    white-space :normal;
+  }
+  width:100%;
+}
+
+  .user-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: none;
+    background-color: #e71e5c;
+    position: relative;
+    color: white;
+    left: -10%;
+    min-width: 50px;
+    max-width: 150px;
+    width: 10%;
+    height: 36px;
+  }
+
+  .user-search-bar input {
+    width: 77%;
+    border-radius: 20px;
+    padding-right: 10%;
+    padding-left: 3%;
+    height: 30px;
+    max-width: 95%;
+    z-index: 9999;
+  }
+
+  .container{
+    margin-left:25%;
+    margin-right: 25%;
+    white-space :normal;
+    width:50%;
+  }
+
+  #NewUser{
+    background-color: white;
+    height:200px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    white-space: normal;
+    .name-container{
+      width:50%;
+      display: inline-block;
+      margin-top:20px;
+      margin-bottom: 30px;
+    }
+    .extra-details-container{
+      width:33%;
+      display: inline-block;
+    }
+  }
+
+  .hidden{
+    display: none !important;
+  }
+
+  #NewUserButton {
+    left:0%;
+    top:650px;
+    position: absolute;
+    
+}
+
+.create-btn{
+  margin-top:20px;
+}
+
+.btn-default{
+  background-color: #e71e5c;
+  border-radius: 20px;
+  color: white;
+  padding:10px;
+  border:none;
+}
+
+.btn-default:hover{
+ cursor: pointer;
+ background-color: #e71e5e62;
+}
+
+
+#SelectedUserContainer{
+  position: relative;
+  color:white !important;
+  margin-top:20px;
+  display:inline-block;
+  width:100%;
+  > div{
+    text-align: left;
+   > div{
+     p{
+       margin:0px;
+     }
+     border: thin;
+     border-color: white;
+     border-style: solid;
+    width:25%;
+    display:inline-block;
+    text-align: left;
+    border-radius: 20px;
+    margin-right:3%;
+    padding-left: 5%;
+    padding-bottom: 10px;
+    margin-bottom: 40px;;
+    min-width:100px;
+  }
+}
+}
+  .users-result{
+    z-index: 99;
+    position: relative;
+    background-color: white !important;
+  
+    border-radius: 20px;
+    div{
+      display: block;
+    }
+  }
+
+  .user-result-cont{
+    text-align: left;
+
+    span{
+      padding-left:10px;
+    }
+  }
+
+  #ErrorBar{
+    div{  
+      float: right;
+      background-color: red;
+      height: fit-content;
+      margin-top:50px;
+      margin-right:2%;
+      min-width: 100px;
+      z-index: 9999999999;
+      width:fit-content;
+      border-radius: 20px;
+      color:white;
+    }
+  
+    position: absolute;
+    top:0px;
+    right:0px;
+    height:100px;
+    width:100%;
+    
+  }
+
+  #SuccessBar{
+    div{  
+      float: right;   
+      background-color: #e71e5c;
+      color:white;
+      height: fit-content;
+      margin-top:50px;
+      margin-right:2%;
+      min-width: 100px;
+      z-index: 9999999999;
+      width:fit-content;
+      border-radius: 40px;
+      p{
+        padding-left:20px;
+        padding-right:20px;
+      }
+      span{
+        margin-left:20px;
+      }
+      span:hover{
+        cursor: pointer;
+        color: black;
+      }
+    }
+
+    position: absolute;
+    top:0px;
+    right:0px;
+    height:100px;
+    width:100%;
+  }
